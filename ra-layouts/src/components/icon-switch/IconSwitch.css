@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+    display: flex !important;
+    justify-content: flex-end;
+    cursor: pointer;
+}

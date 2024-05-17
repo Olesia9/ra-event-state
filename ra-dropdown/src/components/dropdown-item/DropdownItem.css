@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    text-align-last: left;
+    background: #ededed;
+    color: #121212;
+    border-radius: 5px;
+    padding: 0;
+}
+
+li {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d7d7d7;
+    cursor: pointer;
+}
+
+li:last-child {
+    border-bottom: 0;
+}
+
+li:hover {
+    background: rgba(0, 7, 82, 0.16);
+}
+
+.active {
+    background: rgba(0, 7, 82, 0.16);
+}

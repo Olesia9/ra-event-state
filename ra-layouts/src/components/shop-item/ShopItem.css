@@ -1,0 +1,14 @@
+.item__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__card img {
+    max-width: 125px;
+}
+
+.item__card .price {
+    color: #f40000;
+}
