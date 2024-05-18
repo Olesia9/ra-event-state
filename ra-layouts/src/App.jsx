@@ -8,9 +8,11 @@ class App extends Store {
     }
 
     render() {
-        return <>
+        return (
+            <React.Fragment>
                 <Store/>
-            </>
+            </React.Fragment>
+        )
     }
 }
 

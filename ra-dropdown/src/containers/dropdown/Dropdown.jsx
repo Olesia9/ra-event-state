@@ -10,10 +10,10 @@ function Dropdown() {
     }
 
     return (
-        <>
+        <React.Fragment>
             <button onClick={() => handleDropdown(showList)}>ACCOUNT SETTINGS</button>
             <DropdownList state={showList}/>
-        </>
+        </React.Fragment>
     )
 }
 

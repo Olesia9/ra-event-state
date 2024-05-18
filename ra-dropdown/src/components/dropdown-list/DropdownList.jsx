@@ -4,12 +4,12 @@ import list from '../../constans/list.json'
 
 function DropdownList({state}) {
     return (
-        <>
+        <React.Fragment>
             {state ?
                 <DropdownItem list={list}/> :
                 <></>
             }
-        </>
+        </React.Fragment>
     )
 }
 

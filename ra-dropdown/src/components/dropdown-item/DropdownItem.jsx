@@ -9,18 +9,17 @@ function DropdownItem({list}) {
     }
 
     return (
-        <>
-            <ul>
-                {list.map((item, i) =>
-                    <li key={i}
-                        onClick={() => handleActiveItem(i)}
+        <ul>
+            {list.map((item, i) =>
+                <React.Fragment key={i}>
+                    <li onClick={() => handleActiveItem(i)}
                         className={activeItem === i ? "active" : ""}
                     >
                         {item.item}
                     </li>
-                )}
-            </ul>
-        </>
+                </React.Fragment>
+            )}
+        </ul>
     )
 }
 
